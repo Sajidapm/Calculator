@@ -25,7 +25,7 @@ body{
     height: 30px;
     background-color: rgb(204, 206, 207);
     margin: 10px;
-    margin-bottom:2rem;
+    -A--margin-bottom:2rem;
     border: 1px solid black;
     
     border-radius: 3px;
@@ -51,7 +51,7 @@ body{
     width: 80%;
     #display
     {
-       width: 50%;
+       width: 70%;
     }
   }
 }
