@@ -1,0 +1,70 @@
+
+body{
+    width: 100%;
+}
+.bodypart
+{   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 22%;
+    height: 25rem;
+    border: 1px solid black;
+    border-radius: 15px;
+    background-color:rgb(83, 109, 109) ;
+    margin: 3rem;
+    overflow: hidden;
+    padding-top: 1rem;
+}
+#display
+{
+      
+    text-align: end;
+    width: 88%;
+    height: 30px;
+    background-color: rgb(204, 206, 207);
+    margin: 10px;
+    margin-bottom:2rem;
+    border: 1px solid black;
+    
+    border-radius: 3px;
+}
+.buttondesign
+{
+    width: 40px;
+    height: 30px;
+    border: 1px;
+    border-radius: 5px;
+    margin:10px ;
+    background-color: black;
+    color: white;
+    cursor:default !important;
+}
+.buttondesign:hover
+{
+  background-color:rgb(60, 54, 54);
+}
+@media screen and (max-width:768px) {
+  .bodypart
+  {
+    width: 80%;
+    #display
+    {
+       width: 50%;
+    }
+  }
+}
+@media (min-width:769px ) and ( max-width:1024px) {
+  .bodypart
+  {
+    width: 70%;
+  }
+}
+
+@media screen and (min-width:1025px) {
+  .bodypart
+  {
+    width: 20%;
+  }
+}
