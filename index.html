@@ -10,39 +10,40 @@
 </head>
 <body>
     <main>
-    <div class="bodypart">
+    <div class="bodypart"><h5>Calculator</h5>
     <input type="text" id="display">
+    <br>
     <div class="mx-2 d-flex flex-column">
         <div class="d-flex flex-row">
-    <button  class="buttondesign" onclick="calsquare()">x²</button>    
-    <button  class="buttondesign" onclick="calcube()">x³</button>    
-    <button  class="buttondesign" onclick="back()">back</button>    
-    <button  class="buttondesign" onclick="clearScreen()">c</button>  
+    <button  class="buttondesign operator" onclick="calsquare()">x²</button>    
+    <button  class="buttondesign operator" onclick="calcube()">x³</button>    
+    <button  class="buttondesign operator" onclick="back()">back</button>    
+    <button  class="buttondesign clear" onclick="clearScreen()">c</button>  
         </div>
         <div class="d-flex flex-row">
             
     <button  class="buttondesign" onclick="getValue('7')">7</button>    
     <button  class="buttondesign" onclick="getValue('8')">8</button>    
     <button  class="buttondesign" onclick="getValue('9')">9</button> 
-    <button  class="buttondesign" onclick="getValue('/')">÷</button>    
+    <button  class="buttondesign operator" onclick="getValue('/')">÷</button>    
         </div>
         <div class="d-flex flex-row">
     <button  class="buttondesign" onclick="getValue('4')">4</button>    
     <button  class="buttondesign" onclick="getValue('5')">5</button>    
     <button  class="buttondesign" onclick="getValue('6')">6</button>    
-    <button  class="buttondesign" onclick="getValue('*')">*</button> 
+    <button  class="buttondesign operator" onclick="getValue('*')">*</button> 
         </div>
         <div class="d-flex flex-row">
     <button  class="buttondesign" onclick="getValue('1')">1</button>    
     <button  class="buttondesign" onclick="getValue('2')">2</button>    
     <button  class="buttondesign" onclick="getValue('3')">3</button>    
-    <button  class="buttondesign" onclick="getValue('-')">-</button>    
+    <button  class="buttondesign operator" onclick="getValue('-')">-</button>    
         </div>
         <div class="d-flex flex-row">
     <button  class="buttondesign" onclick="getValue('.')">.</button>    
     <button  class="buttondesign" onclick="getValue('0')">0</button>    
-    <button  class="buttondesign" onclick="result()">=</button>    
-    <button  class="buttondesign" onclick="getValue('+')">+</button>    
+    <button  class="buttondesign" style="background-color: rgb(130, 65, 65);" onclick="result()">=</button>    
+    <button  class="buttondesign operator" onclick="getValue('+')">+</button>    
 
 </div>
 
