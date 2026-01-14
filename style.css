@@ -25,7 +25,7 @@ body{
     height: 30px;
     background-color: rgb(204, 206, 207);
     margin: 10px;
-    -A--margin-bottom:2rem;
+    margin-bottom:2rem;
     border: 1px solid black;
     
     border-radius: 3px;
@@ -59,12 +59,36 @@ body{
   .bodypart
   {
     width: 80%;
+    height: 85vh;
+    background-color:rgb(228, 226, 222) ;
+
+  }
+  #calculator
+  {
+    font-size: 40px;
+  }
     #display
     {
        width: 70%;
+       margin-bottom: 70px;
+       margin-top: 50px;
+       height: 60px;
+       background-color: white;
+       font-size: 40px;
+       
+    }
+    .buttondesign
+    {
+      width: 70px;
+      height: 60px;
+      margin: 27px ;
+      font-size: 30px;
+
+
+
     }
   }
-}
+
 @media (min-width:769px ) and ( max-width:1024px) {
   .bodypart
   {
