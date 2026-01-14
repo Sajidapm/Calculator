@@ -58,8 +58,8 @@ body{
 @media screen and (max-width:768px) {
   .bodypart
   {
-    width: 80%;
-    height: 85vh;
+    width: 90%;
+    height: 50rem;
     background-color:rgb(228, 226, 222) ;
 
   }
@@ -70,8 +70,8 @@ body{
     #display
     {
        width: 70%;
-       margin-bottom: 70px;
-       margin-top: 50px;
+       margin-bottom: 30px;
+       margin-top: 30px;
        height: 60px;
        background-color: white;
        font-size: 40px;
@@ -79,10 +79,10 @@ body{
     }
     .buttondesign
     {
-      width: 70px;
-      height: 60px;
+      width: 40px;
+      height: 45px;
       margin: 27px ;
-      font-size: 30px;
+      font-size: 15px;
 
 
 
