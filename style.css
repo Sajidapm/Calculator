@@ -58,7 +58,7 @@ body{
 @media screen and (max-width:768px) {
   .bodypart
   {
-    width: 80%;
+    width: 90%;
     height: 40rem;
     background-color:rgb(228, 226, 222) ;
     margin: 5px;
@@ -84,6 +84,7 @@ body{
       height: 45px;
       margin: 15px ;
       font-size: 15px;
+
 
 
 
