@@ -58,9 +58,10 @@ body{
 @media screen and (max-width:768px) {
   .bodypart
   {
-    width: 90%;
-    height: 50rem;
+    width: 80%;
+    height: 40rem;
     background-color:rgb(228, 226, 222) ;
+    margin: 5px;
 
   }
   #calculator
@@ -81,7 +82,7 @@ body{
     {
       width: 40px;
       height: 45px;
-      margin: 27px ;
+      margin: 15px ;
       font-size: 15px;
 
 
